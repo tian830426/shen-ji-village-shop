@@ -1,0 +1,135 @@
+body {
+    /* height: 5000px; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.burger_center a {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.burger_center a:hover{
+    color: #c04646;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+
+
+.burger_padding_disappear .text-dark:hover {
+    color: #cfc8b4 !important;
+    text-decoration:none;
+    font-size: 18px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.burger_padding_disappear {
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.burger_padding_disappear a{
+    text-decoration:none!important;
+  
+  }
+
+
+/*初始化設定*/
+.container-fluid,
+.container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.navbar {
+    padding: 0 !important;
+    z-index: 2;
+
+}
+
+.navbar-nav {
+    position: relative;
+}
+
+.navbar-nav a {
+    background-color: #ce7a56;
+    border-top: 1px solid;
+}
+
+
+
+.nav_height_r {
+    height: 60px !important;
+    padding-left: 10px;
+}
+
+.nav_height_r a {
+    font-size: 16px;
+}
+
+.justify-content_r {
+    justify-content: start !important;
+
+}
+
+.bg_navbar {
+    background-color: #CE7A56 !important;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 25px;
+}
+
+@media(max-width:980px) {
+    .nav_height_r a {
+        font-size: 13px;
+        /* font-size: 5vw; */
+
+    }
+
+    .nav_height_r .burger_padding_disappear {
+        padding-right: 4px !important;
+    }
+
+    .burger_padding_disappear {
+        display: none;
+    }
+
+    .burger_center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+/*平板*/
+@media(max-width:768px) {
+    .burger {
+        display: block !important;
+    }
+
+    .nav_height_r img {
+        padding-left: 20px;
+    }
+
+}
+
+/*手機*/
+@media(max-width:375px) {
+
+    
+}
+
+
+
+
+
+.burger {
+    display: none;
+}

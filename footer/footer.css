@@ -1,0 +1,10 @@
+.footer{
+    background-color: #F9D195;
+    font-size: 14px;
+    height: 50px;
+    padding-top: 15px;
+}
+.fixed-bottom{
+    position: absolute;
+    z-index: 0;
+}
