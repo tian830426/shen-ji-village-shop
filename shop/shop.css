@@ -68,7 +68,7 @@ li {
   /*Same as width of the large image*/
   position: relative;
   /*Instead of height we will use padding*/
-  padding-top:rem;
+  padding-top:32rem;
 
   /*That helps bring the labels down*/
 
